@@ -41,4 +41,28 @@ public class Blog {
     public int getTempoDiLettura() {
         return tempoDiLettura;
     }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public void setTitolo(String titolo) {
+        this.titolo = titolo;
+    }
+
+    public void setCover(String cover) {
+        this.cover = cover;
+    }
+
+    public void setContenuto(String contenuto) {
+        this.contenuto = contenuto;
+    }
+
+    public void setTempoDiLettura(int tempoDiLettura) {
+        this.tempoDiLettura = tempoDiLettura;
+    }
 }
